@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+   background: rgb(173, 224, 241); 
+   overflow-x: hidden;
+}
+nav{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: lightpink;
+    height: 80px;
+   
+}
+a{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bolder;
+    text-decoration: none;
+    color:black;
+    font-size: 17pt;
+    
+}
+nav div img{
+    height: 87px;
+}
+ul{
+    list-style-type: none;
+    /* display: none; */
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    transform: translateX(100vw);
+    transition: 2s;
+
+}
+.ativa {
+    /* display: flex; */
+    transform: translateX(0)
+}
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 600px;
+}
+main img {
+    width: 600px;
+}
+.roda-jequiti{
+    transform:rotate(2500deg);
+    transition: 10s;
+}
+section img {
+    width: 70px;
+    transform: translate(90vw);
+    transition: 2s;
+
+}
